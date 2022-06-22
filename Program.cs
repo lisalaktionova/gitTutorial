@@ -2,10 +2,8 @@
 
 namespace Program
 {
-
     class Program1
     {
-      
         static void Main(string[] args)
         {
             int t = int.Parse(Console.ReadLine());
@@ -39,11 +37,9 @@ namespace Program
                         {
                             index_no = k;
                         }
-                        
                     }
                     for(int k=0; k<n-1; k++)
                     {
-
                         if (l[k] != l[k + 1])
                         {
                             count++;
@@ -59,7 +55,6 @@ namespace Program
                     index_yes = 0;
                     index_no = 0;
                 }
-
                 answer[i] = l.Count();
             }
 
